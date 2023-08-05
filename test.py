@@ -1,5 +1,4 @@
 import pandas as pd
-  
 # intialise data of lists.
 data = {'Name':['Tom', 'nick', 'krish', 'jack'],
         'Age':[20, 21, 19, 18]}
@@ -8,4 +7,4 @@ data = {'Name':['Tom', 'nick', 'krish', 'jack'],
 df = pd.DataFrame(data)
   
 # Print the output.
-df
+print(df)
